@@ -10,59 +10,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b99b8b5-3fe4-4431-a9a3-1efd3f43c888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/UserListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/superAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schooldemo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/schooldemo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/AddUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/DelSelectedServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/DelUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/FindUserByPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/UpdateUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/UserSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/UserSign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mchange-commons-java-0.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/SignFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/SignFail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/SignSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/SignSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/SuccessServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/SuccessServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/UserListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/UserListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/loginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/loginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/signinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schooldemo1/signinServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/signin.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/dao/UserSign.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dao/UserSign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/SignFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/SignFail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/SignSuccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/SignSuccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/SuccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/SuccessServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/UserListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/UserListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/signinServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/schooldemo1/signinServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/user/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/UserSign.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/UserSign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/SignFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/SignFail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/SignSuccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/SignSuccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/SuccessServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/SuccessServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/UserListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/UserListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/signinServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/schooldemo1/signinServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/WEB-INF/classes/com/example/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schooldemo1-1.0-SNAPSHOT/signin.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +84,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/schooldemo1" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\firstpro\BeSuccessfulWeb\schooldemo1\src\main\java\com\example\schooldemo1" />
+      <recent name="C:\project\firstpro\BeSuccessfulWeb\schooldemo1\src\main\java\com\example\domain" />
+      <recent name="C:\project\firstpro\BeSuccessfulWeb\schooldemo1\src\main\java\com\example\dao\impl" />
+      <recent name="C:\project\firstpro\BeSuccessfulWeb\schooldemo1\src\main\java\com\example\dao" />
+      <recent name="C:\project\firstpro\BeSuccessfulWeb\schooldemo1\src\main\java\com\example\service\impl" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -107,7 +111,7 @@
       <deployment>
         <artifact name="schooldemo1:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/schooldemo1_war_exploded" />
+            <option name="CONTEXT_PATH" value="/schooldemo1" />
           </settings>
         </artifact>
       </deployment>
@@ -119,6 +123,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55129" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -150,7 +202,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618037930270</updated>
-      <workItem from="1618037937098" duration="721000" />
+      <workItem from="1618037937098" duration="10917000" />
     </task>
     <servers />
   </component>

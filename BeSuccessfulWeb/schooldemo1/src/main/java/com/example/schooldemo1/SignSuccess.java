@@ -1,6 +1,6 @@
 package com.example.schooldemo1;
 
-import com.example.user.User;
+import com.example.domain.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

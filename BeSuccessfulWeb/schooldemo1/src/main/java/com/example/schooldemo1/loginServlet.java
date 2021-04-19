@@ -1,7 +1,8 @@
 package com.example.schooldemo1;
 
 import com.example.dao.UserDao;
-import com.example.user.User;
+import com.example.dao.impl.UserDaoImpl;
+import com.example.domain.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,7 +23,7 @@ public class loginServlet extends HttpServlet {
         User loginUser=new User();
         loginUser.setUsername(username);
         loginUser.setPassword(password);
-        UserDao dao=new UserDao();
+        UserDao dao=new UserDaoImpl();
         User user=dao.login(loginUser);
         if(user==null){
             System.out.println("login failed");

@@ -1,19 +1,13 @@
 package com.example.dao;
 
-import com.example.user.User;
+import com.example.domain.User;
 import com.example.util.JDBCUtils;
 //import org.springframework.dao.DataAccessException;
 //import org.springframework.dao.DataAccessException;
 import org.springframework.dao.DataAccessException;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 //import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.PreparedStatementCreator;
 
-import javax.servlet.annotation.WebServlet;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 //@WebServlet("")
 public class UserSign {
     //private JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
@@ -23,9 +17,10 @@ public class UserSign {
         try {
             //String sql = "select * from users where username = ? and password = ?";
             //String sql="insert into users(username,password) values(?,?)";
-            String sql="insert into users values(default,?,?)";
+            //System.out.println(signinUser);
+            String sql="insert into user values(default,?,?,?,?,?,?,?,?)";
             int user = template.update(sql,
-                    signinUser.getUsername(), signinUser.getPassword());
+                    signinUser.getName(),signinUser.getAge(),signinUser.getAddress(),signinUser.getQq(),signinUser.getEmail(),signinUser.getGender(),signinUser.getUsername(), signinUser.getPassword());
             System.out.println("user get");
             return user;
         }catch(DataAccessException e){
